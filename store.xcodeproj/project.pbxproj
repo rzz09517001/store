@@ -1,0 +1,1328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADB13FB8E2EFEA765507FCC /* libPods-store.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FDAC1CCCE84D249347654E /* libPods-store.a */; };
+		56058079216C51F60043A119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56058078216C51F60043A119 /* AppDelegate.m */; };
+		56058081216C51F80043A119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56058080216C51F80043A119 /* Assets.xcassets */; };
+		56058087216C51F80043A119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56058086216C51F80043A119 /* main.m */; };
+		56058091216C51F80043A119 /* storeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56058090216C51F80043A119 /* storeTests.m */; };
+		5605809C216C51F80043A119 /* storeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5605809B216C51F80043A119 /* storeUITests.m */; };
+		5611FCD5216DB44A00A04272 /* RZZTabBarViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5619CD7D216D09B1004E90BC /* RZZTabBarViewController.plist */; };
+		5611FCD9216DCCC800A04272 /* RZZMyListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCD8216DCCC800A04272 /* RZZMyListTableViewCell.m */; };
+		5611FCDC216DE85200A04272 /* RZZMyListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCDB216DE85200A04272 /* RZZMyListTableView.m */; };
+		5611FCDF216DEB1100A04272 /* RZZMyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCDE216DEB1100A04272 /* RZZMyHeaderView.m */; };
+		5611FCE1216DEDE800A04272 /* RZZMyListTableCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5611FCE0216DEDE800A04272 /* RZZMyListTableCell.plist */; };
+		5611FCE8216DF15400A04272 /* RZZRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCE7216DF15400A04272 /* RZZRegisteViewController.m */; };
+		5611FCEB216E1C7C00A04272 /* RZZRegisteInPutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCEA216E1C7C00A04272 /* RZZRegisteInPutView.m */; };
+		5611FCEE216E1EE400A04272 /* RZZThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCED216E1EE400A04272 /* RZZThirdLoginView.m */; };
+		5611FCF5216E3A0600A04272 /* RZZRegisteNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCF4216E3A0600A04272 /* RZZRegisteNextViewController.m */; };
+		5611FCF8216E3F0D00A04272 /* RZZVerificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611FCF7216E3F0D00A04272 /* RZZVerificationView.m */; };
+		5631B6FE216F0AA800EA72B8 /* RZZHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631B6FD216F0AA800EA72B8 /* RZZHTTPTool.m */; };
+		5631B701216F16B900EA72B8 /* RZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631B700216F16B900EA72B8 /* RZZBaseViewController.m */; };
+		5631B704216F20B500EA72B8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631B703216F20B500EA72B8 /* UIView+Toast.m */; };
+		5631B70B216F57B900EA72B8 /* RZZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631B70A216F57B900EA72B8 /* RZZLoginViewController.m */; };
+		5631B70E216F58D700EA72B8 /* RZZLoginHederView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5631B70D216F58D700EA72B8 /* RZZLoginHederView.m */; };
+		566EE81521746D9200F93C34 /* RZZPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE81421746D9200F93C34 /* RZZPayViewController.m */; };
+		566EE81821746DC200F93C34 /* RZZPayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE81721746DC200F93C34 /* RZZPayModel.m */; };
+		566EE81B21746DDF00F93C34 /* RZZPayGoodsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE81A21746DDF00F93C34 /* RZZPayGoodsListModel.m */; };
+		566EE81E21746DFE00F93C34 /* RZZPayListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE81D21746DFE00F93C34 /* RZZPayListModel.m */; };
+		566EE821217472D600F93C34 /* RZZPayAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE820217472D600F93C34 /* RZZPayAddressView.m */; };
+		566EE8242174780C00F93C34 /* RZZPayGoodsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE8232174780C00F93C34 /* RZZPayGoodsListView.m */; };
+		566EE8272174799400F93C34 /* RZZPayGoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 566EE8262174799400F93C34 /* RZZPayGoodsListTableViewCell.m */; };
+		5675E8BC2170927800D3F80D /* RZZSingleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5675E8BB2170927800D3F80D /* RZZSingleTableViewCell.m */; };
+		56948FE72170A70300DCAB8C /* RZZSigleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56948FE62170A70300DCAB8C /* RZZSigleListModel.m */; };
+		56A8C0112172FA4400F6062A /* RZZSearchResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C0102172FA4400F6062A /* RZZSearchResultModel.m */; };
+		56A8C01421730F9300F6062A /* RZZGoodsListBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C01321730F9300F6062A /* RZZGoodsListBarButtonView.m */; };
+		56A8C01721731C7F00F6062A /* RZZGoodsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C01621731C7F00F6062A /* RZZGoodsListView.m */; };
+		56A8C01A2173248000F6062A /* RZZGoodsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C0192173248000F6062A /* RZZGoodsListCollectionViewCell.m */; };
+		56A8C01D21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C01C21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.m */; };
+		56A8C0202173473400F6062A /* RZZBuyCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C01F2173473400F6062A /* RZZBuyCarModel.m */; };
+		56A8C02321734A5B00F6062A /* RZZBuyCarListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C02221734A5B00F6062A /* RZZBuyCarListView.m */; };
+		56A8C02621734C6900F6062A /* RZZBuyCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C02521734C6900F6062A /* RZZBuyCarTableViewCell.m */; };
+		56A8C0292173920700F6062A /* RZZPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A8C0282173920700F6062A /* RZZPriceView.m */; };
+		56AF24FC2171912100914CA4 /* RZZDetailImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF24FB2171912100914CA4 /* RZZDetailImageModel.m */; };
+		56AF24FF217199B500914CA4 /* RZZDetailTitleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF24FE217199B500914CA4 /* RZZDetailTitleLabelView.m */; };
+		56AF25022171C43200914CA4 /* RZZDetailTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF25012171C43200914CA4 /* RZZDetailTitleModel.m */; };
+		56AF25052171DEDD00914CA4 /* RZZDetailContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF25042171DEDD00914CA4 /* RZZDetailContentView.m */; };
+		56AF25082171DFD800914CA4 /* RZZDetailContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF25072171DFD800914CA4 /* RZZDetailContentModel.m */; };
+		56AF250C2171ED8C00914CA4 /* NSString+RZZStringHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF250B2171ED8C00914CA4 /* NSString+RZZStringHeight.m */; };
+		56AF250F2171F56D00914CA4 /* RZZBottomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF250E2171F56D00914CA4 /* RZZBottomImageView.m */; };
+		56AF25122172068A00914CA4 /* RZZDetailTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF25112172068A00914CA4 /* RZZDetailTabBarView.m */; };
+		56AF251921723E4A00914CA4 /* RZZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF251821723E4A00914CA4 /* RZZSearchViewController.m */; };
+		56AF252021724B5A00914CA4 /* RZZGoodsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF251F21724B5A00914CA4 /* RZZGoodsListViewController.m */; };
+		56B86833216CFBA400FFAE24 /* RZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B86832216CFBA400FFAE24 /* RZZTabBarViewController.m */; };
+		56B8683A216D025D00FFAE24 /* RZZTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B86839216D025D00FFAE24 /* RZZTimeViewController.m */; };
+		56B8683D216D027800FFAE24 /* RZZClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B8683C216D027800FFAE24 /* RZZClassViewController.m */; };
+		56B86840216D029600FFAE24 /* RZZBuyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B8683F216D029600FFAE24 /* RZZBuyCarViewController.m */; };
+		56B86843216D02A100FFAE24 /* RZZMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B86842216D02A100FFAE24 /* RZZMyViewController.m */; };
+		56B86846216D041D00FFAE24 /* RZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B86845216D041D00FFAE24 /* RZZNavigationController.m */; };
+		56ECFE002170CE2300C41349 /* RZZGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFDFF2170CE2300C41349 /* RZZGroupTableViewCell.m */; };
+		56ECFE032170CF2900C41349 /* RZZGroupListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFE022170CF2900C41349 /* RZZGroupListModel.m */; };
+		56ECFE062170E36800C41349 /* RZZTimeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFE052170E36800C41349 /* RZZTimeTableView.m */; };
+		56ECFE092170E91C00C41349 /* RZZCenterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFE082170E91C00C41349 /* RZZCenterButtonView.m */; };
+		56ECFE102171039900C41349 /* RZZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFE0F2171039900C41349 /* RZZDetailViewController.m */; };
+		56ECFE132171074E00C41349 /* RZZDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ECFE122171074E00C41349 /* RZZDetailHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5605808D216C51F80043A119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5605806C216C51F60043A119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56058073216C51F60043A119;
+			remoteInfo = store;
+		};
+		56058098216C51F80043A119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5605806C216C51F60043A119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56058073216C51F60043A119;
+			remoteInfo = store;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46226771D1974E4C6B5EED73 /* Pods-store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-store/Pods-store.debug.xcconfig"; sourceTree = "<group>"; };
+		56058074216C51F60043A119 /* store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = store.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56058077216C51F60043A119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56058078216C51F60043A119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56058080216C51F80043A119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56058085216C51F80043A119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56058086216C51F80043A119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5605808C216C51F80043A119 /* storeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56058090216C51F80043A119 /* storeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storeTests.m; sourceTree = "<group>"; };
+		56058092216C51F80043A119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56058097216C51F80043A119 /* storeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5605809B216C51F80043A119 /* storeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storeUITests.m; sourceTree = "<group>"; };
+		5605809D216C51F80043A119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5611FCD6216DBB6400A04272 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5611FCD7216DCCC800A04272 /* RZZMyListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZMyListTableViewCell.h; sourceTree = "<group>"; };
+		5611FCD8216DCCC800A04272 /* RZZMyListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZMyListTableViewCell.m; sourceTree = "<group>"; };
+		5611FCDA216DE85200A04272 /* RZZMyListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZMyListTableView.h; sourceTree = "<group>"; };
+		5611FCDB216DE85200A04272 /* RZZMyListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZMyListTableView.m; sourceTree = "<group>"; };
+		5611FCDD216DEB1100A04272 /* RZZMyHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZMyHeaderView.h; sourceTree = "<group>"; };
+		5611FCDE216DEB1100A04272 /* RZZMyHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZMyHeaderView.m; sourceTree = "<group>"; };
+		5611FCE0216DEDE800A04272 /* RZZMyListTableCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RZZMyListTableCell.plist; sourceTree = "<group>"; };
+		5611FCE6216DF15400A04272 /* RZZRegisteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZRegisteViewController.h; sourceTree = "<group>"; };
+		5611FCE7216DF15400A04272 /* RZZRegisteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZRegisteViewController.m; sourceTree = "<group>"; };
+		5611FCE9216E1C7C00A04272 /* RZZRegisteInPutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZRegisteInPutView.h; sourceTree = "<group>"; };
+		5611FCEA216E1C7C00A04272 /* RZZRegisteInPutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZRegisteInPutView.m; sourceTree = "<group>"; };
+		5611FCEC216E1EE400A04272 /* RZZThirdLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZThirdLoginView.h; sourceTree = "<group>"; };
+		5611FCED216E1EE400A04272 /* RZZThirdLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZThirdLoginView.m; sourceTree = "<group>"; };
+		5611FCF3216E3A0600A04272 /* RZZRegisteNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZRegisteNextViewController.h; sourceTree = "<group>"; };
+		5611FCF4216E3A0600A04272 /* RZZRegisteNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZRegisteNextViewController.m; sourceTree = "<group>"; };
+		5611FCF6216E3F0D00A04272 /* RZZVerificationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZVerificationView.h; sourceTree = "<group>"; };
+		5611FCF7216E3F0D00A04272 /* RZZVerificationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZVerificationView.m; sourceTree = "<group>"; };
+		5619CD7D216D09B1004E90BC /* RZZTabBarViewController.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RZZTabBarViewController.plist; sourceTree = "<group>"; };
+		5631B6FC216F0AA800EA72B8 /* RZZHTTPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZHTTPTool.h; sourceTree = "<group>"; };
+		5631B6FD216F0AA800EA72B8 /* RZZHTTPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZHTTPTool.m; sourceTree = "<group>"; };
+		5631B6FF216F16B900EA72B8 /* RZZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBaseViewController.h; sourceTree = "<group>"; };
+		5631B700216F16B900EA72B8 /* RZZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBaseViewController.m; sourceTree = "<group>"; };
+		5631B702216F20B500EA72B8 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "../../../A3Shop/SXT/UIView+Toast.h"; sourceTree = "<group>"; };
+		5631B703216F20B500EA72B8 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "../../../A3Shop/SXT/UIView+Toast.m"; sourceTree = "<group>"; };
+		5631B709216F57B900EA72B8 /* RZZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZLoginViewController.h; sourceTree = "<group>"; };
+		5631B70A216F57B900EA72B8 /* RZZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZLoginViewController.m; sourceTree = "<group>"; };
+		5631B70C216F58D700EA72B8 /* RZZLoginHederView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZLoginHederView.h; sourceTree = "<group>"; };
+		5631B70D216F58D700EA72B8 /* RZZLoginHederView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZLoginHederView.m; sourceTree = "<group>"; };
+		566EE81321746D9200F93C34 /* RZZPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayViewController.h; sourceTree = "<group>"; };
+		566EE81421746D9200F93C34 /* RZZPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayViewController.m; sourceTree = "<group>"; };
+		566EE81621746DC200F93C34 /* RZZPayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayModel.h; sourceTree = "<group>"; };
+		566EE81721746DC200F93C34 /* RZZPayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayModel.m; sourceTree = "<group>"; };
+		566EE81921746DDF00F93C34 /* RZZPayGoodsListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayGoodsListModel.h; sourceTree = "<group>"; };
+		566EE81A21746DDF00F93C34 /* RZZPayGoodsListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayGoodsListModel.m; sourceTree = "<group>"; };
+		566EE81C21746DFE00F93C34 /* RZZPayListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayListModel.h; sourceTree = "<group>"; };
+		566EE81D21746DFE00F93C34 /* RZZPayListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayListModel.m; sourceTree = "<group>"; };
+		566EE81F217472D600F93C34 /* RZZPayAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayAddressView.h; sourceTree = "<group>"; };
+		566EE820217472D600F93C34 /* RZZPayAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayAddressView.m; sourceTree = "<group>"; };
+		566EE8222174780C00F93C34 /* RZZPayGoodsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayGoodsListView.h; sourceTree = "<group>"; };
+		566EE8232174780C00F93C34 /* RZZPayGoodsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayGoodsListView.m; sourceTree = "<group>"; };
+		566EE8252174799400F93C34 /* RZZPayGoodsListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPayGoodsListTableViewCell.h; sourceTree = "<group>"; };
+		566EE8262174799400F93C34 /* RZZPayGoodsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPayGoodsListTableViewCell.m; sourceTree = "<group>"; };
+		5675E8BA2170927800D3F80D /* RZZSingleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZSingleTableViewCell.h; sourceTree = "<group>"; };
+		5675E8BB2170927800D3F80D /* RZZSingleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZSingleTableViewCell.m; sourceTree = "<group>"; };
+		56948FE52170A70300DCAB8C /* RZZSigleListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZSigleListModel.h; sourceTree = "<group>"; };
+		56948FE62170A70300DCAB8C /* RZZSigleListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZSigleListModel.m; sourceTree = "<group>"; };
+		56A8C00F2172FA4400F6062A /* RZZSearchResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZSearchResultModel.h; sourceTree = "<group>"; };
+		56A8C0102172FA4400F6062A /* RZZSearchResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZSearchResultModel.m; sourceTree = "<group>"; };
+		56A8C01221730F9300F6062A /* RZZGoodsListBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGoodsListBarButtonView.h; sourceTree = "<group>"; };
+		56A8C01321730F9300F6062A /* RZZGoodsListBarButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGoodsListBarButtonView.m; sourceTree = "<group>"; };
+		56A8C01521731C7F00F6062A /* RZZGoodsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGoodsListView.h; sourceTree = "<group>"; };
+		56A8C01621731C7F00F6062A /* RZZGoodsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGoodsListView.m; sourceTree = "<group>"; };
+		56A8C0182173248000F6062A /* RZZGoodsListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGoodsListCollectionViewCell.h; sourceTree = "<group>"; };
+		56A8C0192173248000F6062A /* RZZGoodsListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGoodsListCollectionViewCell.m; sourceTree = "<group>"; };
+		56A8C01B21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+RZZAttributePrice.h"; sourceTree = "<group>"; };
+		56A8C01C21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+RZZAttributePrice.m"; sourceTree = "<group>"; };
+		56A8C01E2173473400F6062A /* RZZBuyCarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBuyCarModel.h; sourceTree = "<group>"; };
+		56A8C01F2173473400F6062A /* RZZBuyCarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBuyCarModel.m; sourceTree = "<group>"; };
+		56A8C02121734A5B00F6062A /* RZZBuyCarListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBuyCarListView.h; sourceTree = "<group>"; };
+		56A8C02221734A5B00F6062A /* RZZBuyCarListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBuyCarListView.m; sourceTree = "<group>"; };
+		56A8C02421734C6900F6062A /* RZZBuyCarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBuyCarTableViewCell.h; sourceTree = "<group>"; };
+		56A8C02521734C6900F6062A /* RZZBuyCarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBuyCarTableViewCell.m; sourceTree = "<group>"; };
+		56A8C0272173920700F6062A /* RZZPriceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZPriceView.h; sourceTree = "<group>"; };
+		56A8C0282173920700F6062A /* RZZPriceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZPriceView.m; sourceTree = "<group>"; };
+		56AF24FA2171912100914CA4 /* RZZDetailImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailImageModel.h; sourceTree = "<group>"; };
+		56AF24FB2171912100914CA4 /* RZZDetailImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailImageModel.m; sourceTree = "<group>"; };
+		56AF24FD217199B500914CA4 /* RZZDetailTitleLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailTitleLabelView.h; sourceTree = "<group>"; };
+		56AF24FE217199B500914CA4 /* RZZDetailTitleLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailTitleLabelView.m; sourceTree = "<group>"; };
+		56AF25002171C43200914CA4 /* RZZDetailTitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailTitleModel.h; sourceTree = "<group>"; };
+		56AF25012171C43200914CA4 /* RZZDetailTitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailTitleModel.m; sourceTree = "<group>"; };
+		56AF25032171DEDD00914CA4 /* RZZDetailContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailContentView.h; sourceTree = "<group>"; };
+		56AF25042171DEDD00914CA4 /* RZZDetailContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailContentView.m; sourceTree = "<group>"; };
+		56AF25062171DFD800914CA4 /* RZZDetailContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailContentModel.h; sourceTree = "<group>"; };
+		56AF25072171DFD800914CA4 /* RZZDetailContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailContentModel.m; sourceTree = "<group>"; };
+		56AF250A2171ED8C00914CA4 /* NSString+RZZStringHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RZZStringHeight.h"; sourceTree = "<group>"; };
+		56AF250B2171ED8C00914CA4 /* NSString+RZZStringHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RZZStringHeight.m"; sourceTree = "<group>"; };
+		56AF250D2171F56D00914CA4 /* RZZBottomImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBottomImageView.h; sourceTree = "<group>"; };
+		56AF250E2171F56D00914CA4 /* RZZBottomImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBottomImageView.m; sourceTree = "<group>"; };
+		56AF25102172068A00914CA4 /* RZZDetailTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailTabBarView.h; sourceTree = "<group>"; };
+		56AF25112172068A00914CA4 /* RZZDetailTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailTabBarView.m; sourceTree = "<group>"; };
+		56AF251721723E4A00914CA4 /* RZZSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZSearchViewController.h; sourceTree = "<group>"; };
+		56AF251821723E4A00914CA4 /* RZZSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZSearchViewController.m; sourceTree = "<group>"; };
+		56AF251E21724B5A00914CA4 /* RZZGoodsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGoodsListViewController.h; sourceTree = "<group>"; };
+		56AF251F21724B5A00914CA4 /* RZZGoodsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGoodsListViewController.m; sourceTree = "<group>"; };
+		56B86831216CFBA400FFAE24 /* RZZTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZTabBarViewController.h; sourceTree = "<group>"; };
+		56B86832216CFBA400FFAE24 /* RZZTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZTabBarViewController.m; sourceTree = "<group>"; };
+		56B86838216D025D00FFAE24 /* RZZTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZTimeViewController.h; sourceTree = "<group>"; };
+		56B86839216D025D00FFAE24 /* RZZTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZTimeViewController.m; sourceTree = "<group>"; };
+		56B8683B216D027800FFAE24 /* RZZClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZClassViewController.h; sourceTree = "<group>"; };
+		56B8683C216D027800FFAE24 /* RZZClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZClassViewController.m; sourceTree = "<group>"; };
+		56B8683E216D029600FFAE24 /* RZZBuyCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZBuyCarViewController.h; sourceTree = "<group>"; };
+		56B8683F216D029600FFAE24 /* RZZBuyCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZBuyCarViewController.m; sourceTree = "<group>"; };
+		56B86841216D02A100FFAE24 /* RZZMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZMyViewController.h; sourceTree = "<group>"; };
+		56B86842216D02A100FFAE24 /* RZZMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZMyViewController.m; sourceTree = "<group>"; };
+		56B86844216D041D00FFAE24 /* RZZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZNavigationController.h; sourceTree = "<group>"; };
+		56B86845216D041D00FFAE24 /* RZZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZNavigationController.m; sourceTree = "<group>"; };
+		56ECFDFE2170CE2300C41349 /* RZZGroupTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGroupTableViewCell.h; sourceTree = "<group>"; };
+		56ECFDFF2170CE2300C41349 /* RZZGroupTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGroupTableViewCell.m; sourceTree = "<group>"; };
+		56ECFE012170CF2900C41349 /* RZZGroupListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZGroupListModel.h; sourceTree = "<group>"; };
+		56ECFE022170CF2900C41349 /* RZZGroupListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZGroupListModel.m; sourceTree = "<group>"; };
+		56ECFE042170E36800C41349 /* RZZTimeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZTimeTableView.h; sourceTree = "<group>"; };
+		56ECFE052170E36800C41349 /* RZZTimeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZTimeTableView.m; sourceTree = "<group>"; };
+		56ECFE072170E91C00C41349 /* RZZCenterButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZCenterButtonView.h; sourceTree = "<group>"; };
+		56ECFE082170E91C00C41349 /* RZZCenterButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZCenterButtonView.m; sourceTree = "<group>"; };
+		56ECFE0E2171039900C41349 /* RZZDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailViewController.h; sourceTree = "<group>"; };
+		56ECFE0F2171039900C41349 /* RZZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailViewController.m; sourceTree = "<group>"; };
+		56ECFE112171074E00C41349 /* RZZDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZZDetailHeaderView.h; sourceTree = "<group>"; };
+		56ECFE122171074E00C41349 /* RZZDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZZDetailHeaderView.m; sourceTree = "<group>"; };
+		67672DC40D52D08D8B907930 /* Pods-store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-store.release.xcconfig"; path = "Pods/Target Support Files/Pods-store/Pods-store.release.xcconfig"; sourceTree = "<group>"; };
+		F1FDAC1CCCE84D249347654E /* libPods-store.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-store.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56058071216C51F60043A119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADB13FB8E2EFEA765507FCC /* libPods-store.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56058089216C51F80043A119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56058094216C51F80043A119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304C7BE1235699001AF4F5D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FDAC1CCCE84D249347654E /* libPods-store.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5605806B216C51F60043A119 = {
+			isa = PBXGroup;
+			children = (
+				56058076216C51F60043A119 /* store */,
+				5605808F216C51F80043A119 /* storeTests */,
+				5605809A216C51F80043A119 /* storeUITests */,
+				56058075216C51F60043A119 /* Products */,
+				DD58FF661BBB7E69C4A67DE6 /* Pods */,
+				304C7BE1235699001AF4F5D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56058075216C51F60043A119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56058074216C51F60043A119 /* store.app */,
+				5605808C216C51F80043A119 /* storeTests.xctest */,
+				56058097216C51F80043A119 /* storeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56058076216C51F60043A119 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				56AF251A21724B3200914CA4 /* GoodsList */,
+				56AF25092171ED4800914CA4 /* Category */,
+				5619CD77216D093F004E90BC /* Delegate */,
+				5619CD78216D0952004E90BC /* Main */,
+				5619CD79216D096B004E90BC /* Time */,
+				5619CD7A216D0979004E90BC /* Class */,
+				56AF251321723E1000914CA4 /* Search */,
+				5619CD7B216D0987004E90BC /* BbuyCar */,
+				5619CD7C216D0991004E90BC /* My */,
+				5631B705216F575E00EA72B8 /* Login */,
+				5611FCE2216DF0B100A04272 /* Registe */,
+				56ECFE0A217102D500C41349 /* ProductDetail */,
+				5631B6FB216F0A6700EA72B8 /* Tool */,
+				56058080216C51F80043A119 /* Assets.xcassets */,
+				56058085216C51F80043A119 /* Info.plist */,
+				56058086216C51F80043A119 /* main.m */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		5605808F216C51F80043A119 /* storeTests */ = {
+			isa = PBXGroup;
+			children = (
+				56058090216C51F80043A119 /* storeTests.m */,
+				56058092216C51F80043A119 /* Info.plist */,
+			);
+			path = storeTests;
+			sourceTree = "<group>";
+		};
+		5605809A216C51F80043A119 /* storeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5605809B216C51F80043A119 /* storeUITests.m */,
+				5605809D216C51F80043A119 /* Info.plist */,
+			);
+			path = storeUITests;
+			sourceTree = "<group>";
+		};
+		5611FCE2216DF0B100A04272 /* Registe */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCEF216E39AC00A04272 /* Next */,
+				5611FCE5216DF12D00A04272 /* Controller */,
+				5611FCE4216DF12700A04272 /* Model */,
+				5611FCE3216DF11D00A04272 /* View */,
+			);
+			path = Registe;
+			sourceTree = "<group>";
+		};
+		5611FCE3216DF11D00A04272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCE9216E1C7C00A04272 /* RZZRegisteInPutView.h */,
+				5611FCEA216E1C7C00A04272 /* RZZRegisteInPutView.m */,
+				5611FCEC216E1EE400A04272 /* RZZThirdLoginView.h */,
+				5611FCED216E1EE400A04272 /* RZZThirdLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5611FCE4216DF12700A04272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5611FCE5216DF12D00A04272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCE6216DF15400A04272 /* RZZRegisteViewController.h */,
+				5611FCE7216DF15400A04272 /* RZZRegisteViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5611FCEF216E39AC00A04272 /* Next */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCF2216E39CD00A04272 /* Controller */,
+				5611FCF1216E39C600A04272 /* Model */,
+				5611FCF0216E39B700A04272 /* View */,
+			);
+			path = Next;
+			sourceTree = "<group>";
+		};
+		5611FCF0216E39B700A04272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCF6216E3F0D00A04272 /* RZZVerificationView.h */,
+				5611FCF7216E3F0D00A04272 /* RZZVerificationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5611FCF1216E39C600A04272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5611FCF2216E39CD00A04272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCF3216E3A0600A04272 /* RZZRegisteNextViewController.h */,
+				5611FCF4216E3A0600A04272 /* RZZRegisteNextViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5619CD77216D093F004E90BC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				56058078216C51F60043A119 /* AppDelegate.m */,
+				56058077216C51F60043A119 /* AppDelegate.h */,
+				5611FCD6216DBB6400A04272 /* PrefixHeader.pch */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		5619CD78216D0952004E90BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5619CD7D216D09B1004E90BC /* RZZTabBarViewController.plist */,
+				56B86831216CFBA400FFAE24 /* RZZTabBarViewController.h */,
+				56B86832216CFBA400FFAE24 /* RZZTabBarViewController.m */,
+				56B86844216D041D00FFAE24 /* RZZNavigationController.h */,
+				56B86845216D041D00FFAE24 /* RZZNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5619CD79216D096B004E90BC /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				5619CD7E216D0B07004E90BC /* Controller */,
+				5619CD7F216D0B13004E90BC /* View */,
+				5619CD80216D0B18004E90BC /* Model */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		5619CD7A216D0979004E90BC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5619CD83216D0B3D004E90BC /* Model */,
+				5619CD82216D0B38004E90BC /* View */,
+				5619CD81216D0B28004E90BC /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5619CD7B216D0987004E90BC /* BbuyCar */ = {
+			isa = PBXGroup;
+			children = (
+				5619CD84216D0B43004E90BC /* Controller */,
+				5619CD85216D0B49004E90BC /* View */,
+				5619CD86216D0B4F004E90BC /* Model */,
+				566EE80F21746CFA00F93C34 /* Pay */,
+			);
+			path = BbuyCar;
+			sourceTree = "<group>";
+		};
+		5619CD7C216D0991004E90BC /* My */ = {
+			isa = PBXGroup;
+			children = (
+				5619CD87216D0B59004E90BC /* Controller */,
+				5619CD89216D0B67004E90BC /* Model */,
+				5619CD88216D0B62004E90BC /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		5619CD7E216D0B07004E90BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56B86838216D025D00FFAE24 /* RZZTimeViewController.h */,
+				56B86839216D025D00FFAE24 /* RZZTimeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5619CD7F216D0B13004E90BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5675E8BA2170927800D3F80D /* RZZSingleTableViewCell.h */,
+				5675E8BB2170927800D3F80D /* RZZSingleTableViewCell.m */,
+				56ECFDFE2170CE2300C41349 /* RZZGroupTableViewCell.h */,
+				56ECFDFF2170CE2300C41349 /* RZZGroupTableViewCell.m */,
+				56ECFE042170E36800C41349 /* RZZTimeTableView.h */,
+				56ECFE052170E36800C41349 /* RZZTimeTableView.m */,
+				56ECFE072170E91C00C41349 /* RZZCenterButtonView.h */,
+				56ECFE082170E91C00C41349 /* RZZCenterButtonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5619CD80216D0B18004E90BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56948FE52170A70300DCAB8C /* RZZSigleListModel.h */,
+				56948FE62170A70300DCAB8C /* RZZSigleListModel.m */,
+				56ECFE012170CF2900C41349 /* RZZGroupListModel.h */,
+				56ECFE022170CF2900C41349 /* RZZGroupListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5619CD81216D0B28004E90BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56B8683B216D027800FFAE24 /* RZZClassViewController.h */,
+				56B8683C216D027800FFAE24 /* RZZClassViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5619CD82216D0B38004E90BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5619CD83216D0B3D004E90BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5619CD84216D0B43004E90BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56B8683E216D029600FFAE24 /* RZZBuyCarViewController.h */,
+				56B8683F216D029600FFAE24 /* RZZBuyCarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5619CD85216D0B49004E90BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56A8C02121734A5B00F6062A /* RZZBuyCarListView.h */,
+				56A8C02221734A5B00F6062A /* RZZBuyCarListView.m */,
+				56A8C02421734C6900F6062A /* RZZBuyCarTableViewCell.h */,
+				56A8C02521734C6900F6062A /* RZZBuyCarTableViewCell.m */,
+				56A8C0272173920700F6062A /* RZZPriceView.h */,
+				56A8C0282173920700F6062A /* RZZPriceView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5619CD86216D0B4F004E90BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56A8C01E2173473400F6062A /* RZZBuyCarModel.h */,
+				56A8C01F2173473400F6062A /* RZZBuyCarModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5619CD87216D0B59004E90BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56B86841216D02A100FFAE24 /* RZZMyViewController.h */,
+				56B86842216D02A100FFAE24 /* RZZMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5619CD88216D0B62004E90BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5611FCD7216DCCC800A04272 /* RZZMyListTableViewCell.h */,
+				5611FCD8216DCCC800A04272 /* RZZMyListTableViewCell.m */,
+				5611FCDA216DE85200A04272 /* RZZMyListTableView.h */,
+				5611FCDB216DE85200A04272 /* RZZMyListTableView.m */,
+				5611FCDD216DEB1100A04272 /* RZZMyHeaderView.h */,
+				5611FCDE216DEB1100A04272 /* RZZMyHeaderView.m */,
+				5611FCE0216DEDE800A04272 /* RZZMyListTableCell.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5619CD89216D0B67004E90BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5631B6FB216F0A6700EA72B8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5631B702216F20B500EA72B8 /* UIView+Toast.h */,
+				5631B703216F20B500EA72B8 /* UIView+Toast.m */,
+				5631B6FC216F0AA800EA72B8 /* RZZHTTPTool.h */,
+				5631B6FD216F0AA800EA72B8 /* RZZHTTPTool.m */,
+				5631B6FF216F16B900EA72B8 /* RZZBaseViewController.h */,
+				5631B700216F16B900EA72B8 /* RZZBaseViewController.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5631B705216F575E00EA72B8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5631B708216F577E00EA72B8 /* Controller */,
+				5631B707216F577900EA72B8 /* View */,
+				5631B706216F576500EA72B8 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5631B706216F576500EA72B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5631B707216F577900EA72B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5631B70C216F58D700EA72B8 /* RZZLoginHederView.h */,
+				5631B70D216F58D700EA72B8 /* RZZLoginHederView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5631B708216F577E00EA72B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5631B709216F57B900EA72B8 /* RZZLoginViewController.h */,
+				5631B70A216F57B900EA72B8 /* RZZLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		566EE80F21746CFA00F93C34 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				566EE81221746D2900F93C34 /* Controller */,
+				566EE81121746D2300F93C34 /* View */,
+				566EE81021746D1900F93C34 /* Model */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		566EE81021746D1900F93C34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				566EE81621746DC200F93C34 /* RZZPayModel.h */,
+				566EE81721746DC200F93C34 /* RZZPayModel.m */,
+				566EE81921746DDF00F93C34 /* RZZPayGoodsListModel.h */,
+				566EE81A21746DDF00F93C34 /* RZZPayGoodsListModel.m */,
+				566EE81C21746DFE00F93C34 /* RZZPayListModel.h */,
+				566EE81D21746DFE00F93C34 /* RZZPayListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		566EE81121746D2300F93C34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				566EE81F217472D600F93C34 /* RZZPayAddressView.h */,
+				566EE820217472D600F93C34 /* RZZPayAddressView.m */,
+				566EE8222174780C00F93C34 /* RZZPayGoodsListView.h */,
+				566EE8232174780C00F93C34 /* RZZPayGoodsListView.m */,
+				566EE8252174799400F93C34 /* RZZPayGoodsListTableViewCell.h */,
+				566EE8262174799400F93C34 /* RZZPayGoodsListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		566EE81221746D2900F93C34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				566EE81321746D9200F93C34 /* RZZPayViewController.h */,
+				566EE81421746D9200F93C34 /* RZZPayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56AF25092171ED4800914CA4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				56AF250A2171ED8C00914CA4 /* NSString+RZZStringHeight.h */,
+				56AF250B2171ED8C00914CA4 /* NSString+RZZStringHeight.m */,
+				56A8C01B21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.h */,
+				56A8C01C21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		56AF251321723E1000914CA4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				56AF251621723E2B00914CA4 /* Controller */,
+				56AF251521723E2600914CA4 /* View */,
+				56AF251421723E1F00914CA4 /* Model */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		56AF251421723E1F00914CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56A8C00F2172FA4400F6062A /* RZZSearchResultModel.h */,
+				56A8C0102172FA4400F6062A /* RZZSearchResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56AF251521723E2600914CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56AF251621723E2B00914CA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56AF251721723E4A00914CA4 /* RZZSearchViewController.h */,
+				56AF251821723E4A00914CA4 /* RZZSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56AF251A21724B3200914CA4 /* GoodsList */ = {
+			isa = PBXGroup;
+			children = (
+				56AF251D21724B4900914CA4 /* Controller */,
+				56AF251C21724B4400914CA4 /* View */,
+				56AF251B21724B3D00914CA4 /* Model */,
+			);
+			path = GoodsList;
+			sourceTree = "<group>";
+		};
+		56AF251B21724B3D00914CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56AF251C21724B4400914CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56A8C01221730F9300F6062A /* RZZGoodsListBarButtonView.h */,
+				56A8C01321730F9300F6062A /* RZZGoodsListBarButtonView.m */,
+				56A8C01521731C7F00F6062A /* RZZGoodsListView.h */,
+				56A8C01621731C7F00F6062A /* RZZGoodsListView.m */,
+				56A8C0182173248000F6062A /* RZZGoodsListCollectionViewCell.h */,
+				56A8C0192173248000F6062A /* RZZGoodsListCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56AF251D21724B4900914CA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56AF251E21724B5A00914CA4 /* RZZGoodsListViewController.h */,
+				56AF251F21724B5A00914CA4 /* RZZGoodsListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56ECFE0A217102D500C41349 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				56ECFE0D217102FE00C41349 /* Controller */,
+				56ECFE0C217102F900C41349 /* View */,
+				56ECFE0B217102EC00C41349 /* Model */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		56ECFE0B217102EC00C41349 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56AF24FA2171912100914CA4 /* RZZDetailImageModel.h */,
+				56AF24FB2171912100914CA4 /* RZZDetailImageModel.m */,
+				56AF25002171C43200914CA4 /* RZZDetailTitleModel.h */,
+				56AF25012171C43200914CA4 /* RZZDetailTitleModel.m */,
+				56AF25062171DFD800914CA4 /* RZZDetailContentModel.h */,
+				56AF25072171DFD800914CA4 /* RZZDetailContentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56ECFE0C217102F900C41349 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56ECFE112171074E00C41349 /* RZZDetailHeaderView.h */,
+				56ECFE122171074E00C41349 /* RZZDetailHeaderView.m */,
+				56AF24FD217199B500914CA4 /* RZZDetailTitleLabelView.h */,
+				56AF24FE217199B500914CA4 /* RZZDetailTitleLabelView.m */,
+				56AF25032171DEDD00914CA4 /* RZZDetailContentView.h */,
+				56AF25042171DEDD00914CA4 /* RZZDetailContentView.m */,
+				56AF250D2171F56D00914CA4 /* RZZBottomImageView.h */,
+				56AF250E2171F56D00914CA4 /* RZZBottomImageView.m */,
+				56AF25102172068A00914CA4 /* RZZDetailTabBarView.h */,
+				56AF25112172068A00914CA4 /* RZZDetailTabBarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56ECFE0D217102FE00C41349 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56ECFE0E2171039900C41349 /* RZZDetailViewController.h */,
+				56ECFE0F2171039900C41349 /* RZZDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD58FF661BBB7E69C4A67DE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46226771D1974E4C6B5EED73 /* Pods-store.debug.xcconfig */,
+				67672DC40D52D08D8B907930 /* Pods-store.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56058073216C51F60043A119 /* store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560580A0216C51F80043A119 /* Build configuration list for PBXNativeTarget "store" */;
+			buildPhases = (
+				2C620F98679801309910AB12 /* [CP] Check Pods Manifest.lock */,
+				56058070216C51F60043A119 /* Sources */,
+				56058071216C51F60043A119 /* Frameworks */,
+				56058072216C51F60043A119 /* Resources */,
+				D84193D3A4F2524E844333D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = store;
+			productName = store;
+			productReference = 56058074216C51F60043A119 /* store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5605808B216C51F80043A119 /* storeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560580A3216C51F80043A119 /* Build configuration list for PBXNativeTarget "storeTests" */;
+			buildPhases = (
+				56058088216C51F80043A119 /* Sources */,
+				56058089216C51F80043A119 /* Frameworks */,
+				5605808A216C51F80043A119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5605808E216C51F80043A119 /* PBXTargetDependency */,
+			);
+			name = storeTests;
+			productName = storeTests;
+			productReference = 5605808C216C51F80043A119 /* storeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56058096216C51F80043A119 /* storeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560580A6216C51F80043A119 /* Build configuration list for PBXNativeTarget "storeUITests" */;
+			buildPhases = (
+				56058093216C51F80043A119 /* Sources */,
+				56058094216C51F80043A119 /* Frameworks */,
+				56058095216C51F80043A119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56058099216C51F80043A119 /* PBXTargetDependency */,
+			);
+			name = storeUITests;
+			productName = storeUITests;
+			productReference = 56058097216C51F80043A119 /* storeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5605806C216C51F60043A119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RZZ;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = rzz;
+				TargetAttributes = {
+					56058073216C51F60043A119 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					5605808B216C51F80043A119 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56058073216C51F60043A119;
+					};
+					56058096216C51F80043A119 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56058073216C51F60043A119;
+					};
+				};
+			};
+			buildConfigurationList = 5605806F216C51F60043A119 /* Build configuration list for PBXProject "store" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5605806B216C51F60043A119;
+			productRefGroup = 56058075216C51F60043A119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56058073216C51F60043A119 /* store */,
+				5605808B216C51F80043A119 /* storeTests */,
+				56058096216C51F80043A119 /* storeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56058072216C51F60043A119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611FCD5216DB44A00A04272 /* RZZTabBarViewController.plist in Resources */,
+				5611FCE1216DEDE800A04272 /* RZZMyListTableCell.plist in Resources */,
+				56058081216C51F80043A119 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5605808A216C51F80043A119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56058095216C51F80043A119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C620F98679801309910AB12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84193D3A4F2524E844333D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-store/Pods-store-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-store/Pods-store-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56058070216C51F60043A119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ECFE002170CE2300C41349 /* RZZGroupTableViewCell.m in Sources */,
+				56B8683D216D027800FFAE24 /* RZZClassViewController.m in Sources */,
+				5611FCEE216E1EE400A04272 /* RZZThirdLoginView.m in Sources */,
+				566EE8272174799400F93C34 /* RZZPayGoodsListTableViewCell.m in Sources */,
+				56ECFE032170CF2900C41349 /* RZZGroupListModel.m in Sources */,
+				56ECFE102171039900C41349 /* RZZDetailViewController.m in Sources */,
+				56A8C0202173473400F6062A /* RZZBuyCarModel.m in Sources */,
+				56AF25082171DFD800914CA4 /* RZZDetailContentModel.m in Sources */,
+				56A8C02621734C6900F6062A /* RZZBuyCarTableViewCell.m in Sources */,
+				56ECFE132171074E00C41349 /* RZZDetailHeaderView.m in Sources */,
+				566EE81521746D9200F93C34 /* RZZPayViewController.m in Sources */,
+				5631B701216F16B900EA72B8 /* RZZBaseViewController.m in Sources */,
+				566EE821217472D600F93C34 /* RZZPayAddressView.m in Sources */,
+				5611FCEB216E1C7C00A04272 /* RZZRegisteInPutView.m in Sources */,
+				56A8C01421730F9300F6062A /* RZZGoodsListBarButtonView.m in Sources */,
+				5611FCE8216DF15400A04272 /* RZZRegisteViewController.m in Sources */,
+				56ECFE062170E36800C41349 /* RZZTimeTableView.m in Sources */,
+				5631B70E216F58D700EA72B8 /* RZZLoginHederView.m in Sources */,
+				5611FCF8216E3F0D00A04272 /* RZZVerificationView.m in Sources */,
+				56A8C01A2173248000F6062A /* RZZGoodsListCollectionViewCell.m in Sources */,
+				56B8683A216D025D00FFAE24 /* RZZTimeViewController.m in Sources */,
+				56AF24FC2171912100914CA4 /* RZZDetailImageModel.m in Sources */,
+				5631B704216F20B500EA72B8 /* UIView+Toast.m in Sources */,
+				56B86843216D02A100FFAE24 /* RZZMyViewController.m in Sources */,
+				56A8C01721731C7F00F6062A /* RZZGoodsListView.m in Sources */,
+				5631B70B216F57B900EA72B8 /* RZZLoginViewController.m in Sources */,
+				56AF252021724B5A00914CA4 /* RZZGoodsListViewController.m in Sources */,
+				56A8C02321734A5B00F6062A /* RZZBuyCarListView.m in Sources */,
+				56B86833216CFBA400FFAE24 /* RZZTabBarViewController.m in Sources */,
+				5611FCDC216DE85200A04272 /* RZZMyListTableView.m in Sources */,
+				56AF250F2171F56D00914CA4 /* RZZBottomImageView.m in Sources */,
+				56ECFE092170E91C00C41349 /* RZZCenterButtonView.m in Sources */,
+				56A8C0292173920700F6062A /* RZZPriceView.m in Sources */,
+				56A8C01D21732C9200F6062A /* NSMutableAttributedString+RZZAttributePrice.m in Sources */,
+				56AF25052171DEDD00914CA4 /* RZZDetailContentView.m in Sources */,
+				56B86846216D041D00FFAE24 /* RZZNavigationController.m in Sources */,
+				566EE81B21746DDF00F93C34 /* RZZPayGoodsListModel.m in Sources */,
+				56AF25122172068A00914CA4 /* RZZDetailTabBarView.m in Sources */,
+				5611FCDF216DEB1100A04272 /* RZZMyHeaderView.m in Sources */,
+				56B86840216D029600FFAE24 /* RZZBuyCarViewController.m in Sources */,
+				566EE81821746DC200F93C34 /* RZZPayModel.m in Sources */,
+				56AF24FF217199B500914CA4 /* RZZDetailTitleLabelView.m in Sources */,
+				56A8C0112172FA4400F6062A /* RZZSearchResultModel.m in Sources */,
+				566EE81E21746DFE00F93C34 /* RZZPayListModel.m in Sources */,
+				56948FE72170A70300DCAB8C /* RZZSigleListModel.m in Sources */,
+				5611FCF5216E3A0600A04272 /* RZZRegisteNextViewController.m in Sources */,
+				56058087216C51F80043A119 /* main.m in Sources */,
+				56AF250C2171ED8C00914CA4 /* NSString+RZZStringHeight.m in Sources */,
+				5675E8BC2170927800D3F80D /* RZZSingleTableViewCell.m in Sources */,
+				56AF25022171C43200914CA4 /* RZZDetailTitleModel.m in Sources */,
+				5631B6FE216F0AA800EA72B8 /* RZZHTTPTool.m in Sources */,
+				56058079216C51F60043A119 /* AppDelegate.m in Sources */,
+				566EE8242174780C00F93C34 /* RZZPayGoodsListView.m in Sources */,
+				5611FCD9216DCCC800A04272 /* RZZMyListTableViewCell.m in Sources */,
+				56AF251921723E4A00914CA4 /* RZZSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56058088216C51F80043A119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56058091216C51F80043A119 /* storeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56058093216C51F80043A119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5605809C216C51F80043A119 /* storeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5605808E216C51F80043A119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56058073216C51F60043A119 /* store */;
+			targetProxy = 5605808D216C51F80043A119 /* PBXContainerItemProxy */;
+		};
+		56058099216C51F80043A119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56058073216C51F60043A119 /* store */;
+			targetProxy = 56058098216C51F80043A119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5605809E216C51F80043A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5605809F216C51F80043A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560580A1216C51F80043A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46226771D1974E4C6B5EED73 /* Pods-store.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8W45M7ZPS;
+				GCC_PREFIX_HEADER = store/Delegate/PrefixHeader.pch;
+				INFOPLIST_FILE = store/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzz.store;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		560580A2216C51F80043A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67672DC40D52D08D8B907930 /* Pods-store.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8W45M7ZPS;
+				GCC_PREFIX_HEADER = store/Delegate/PrefixHeader.pch;
+				INFOPLIST_FILE = store/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzz.store;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		560580A4216C51F80043A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = storeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.storeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/store.app/store";
+			};
+			name = Debug;
+		};
+		560580A5216C51F80043A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = storeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.storeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/store.app/store";
+			};
+			name = Release;
+		};
+		560580A7216C51F80043A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = storeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.storeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = store;
+			};
+			name = Debug;
+		};
+		560580A8216C51F80043A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = storeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.storeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = store;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5605806F216C51F60043A119 /* Build configuration list for PBXProject "store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5605809E216C51F80043A119 /* Debug */,
+				5605809F216C51F80043A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560580A0216C51F80043A119 /* Build configuration list for PBXNativeTarget "store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560580A1216C51F80043A119 /* Debug */,
+				560580A2216C51F80043A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560580A3216C51F80043A119 /* Build configuration list for PBXNativeTarget "storeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560580A4216C51F80043A119 /* Debug */,
+				560580A5216C51F80043A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560580A6216C51F80043A119 /* Build configuration list for PBXNativeTarget "storeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560580A7216C51F80043A119 /* Debug */,
+				560580A8216C51F80043A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5605806C216C51F60043A119 /* Project object */;
+}
